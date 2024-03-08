@@ -166,7 +166,7 @@ public class VerDatos extends javax.swing.JFrame {
                 controlLogic.borrarMascota(idMascota);
                 
                 mostrarMensaje("Mascota eliminada correctamente", "Info", "Borrado de Mascotas");   
-                // cargar la tabla, asi desaparece el registro en la interfaz de usuario
+                // cargar la tabla, asi desaparece el registro eliminado de la interfaz de usuario
                 cargarTabla();
             }
             else {
