@@ -183,7 +183,7 @@ public class VerDatos extends javax.swing.JFrame {
          if (tablaMascotas.getRowCount() > 0) {
             //controlar seleccion de mascota
             if (tablaMascotas.getSelectedRow() != -1) {
-                //obtener el id a eliminar
+                //obtener el id a editar
                 int idMascota = Integer.parseInt(String.valueOf(tablaMascotas.getValueAt(tablaMascotas.getSelectedRow(), 0)));
                 
                 ModificarDatos pantallaEdit = new ModificarDatos(idMascota);
